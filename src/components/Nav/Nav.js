@@ -184,6 +184,11 @@ const Nav = () => {
           </Link>
         </p>
         <ul className={styles.navMenu}>
+          <li>
+            <Link href="/CSR">
+              <a title="CSR">CSR</a>
+            </Link>
+          </li>
           {navigation?.map(({ id, path, label, title, target, children }) => {
             return (
               <li key={id}>
